@@ -215,6 +215,10 @@ options:
       - Name of Datastore to use to create a new instace
     version_added: '0.2.0'
     type: str
+
+extends_documentation_fragment:
+- community.general.opennebula
+
 author:
     - "Milan Ilic (@ilicmilan)"
     - "Jan Meerkamp (@meerkampdvv)"

@@ -68,6 +68,10 @@ options:
       - Also, if the C(name) begins with '~*' case-insensitive matching will be performed.
       - See examples for more details.
     type: str
+
+extends_documentation_fragment:
+- community.general.opennebula
+
 author:
     - "Milan Ilic (@ilicmilan)"
     - "Jan Meerkamp (@meerkampdvv)"

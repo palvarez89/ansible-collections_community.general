@@ -79,6 +79,10 @@ options:
       - A name that will be assigned to the existing or new image.
       - In the case of cloning, by default C(new_name) will take the name of the origin image with the prefix 'Copy of'.
     type: str
+
+extends_documentation_fragment:
+- community.general.opennebula
+
 author:
     - "Milan Ilic (@ilicmilan)"
 '''

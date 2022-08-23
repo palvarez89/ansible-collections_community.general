@@ -117,6 +117,10 @@ options:
       - Force the new cardinality even if it is outside the limits
     type: bool
     default: no
+
+extends_documentation_fragment:
+- community.general.opennebula
+
 author:
     - "Milan Ilic (@ilicmilan)"
 '''
